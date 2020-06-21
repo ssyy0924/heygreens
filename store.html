@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title></title>
+	   <link rel="stylesheet" href="./dist/css/bootstrap.css"/>
+     <link rel="stylesheet" type="text/css" href="./dist/css/style.css"> 
+				
+	   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&Righteous&display=swap" rel="stylesheet">
+    
+     <style type="text/css">
+       .box-size{background-color: #f7f6f1; border-radius: 10px; border: 30px #000;}
+       .box-size h3{padding-top: 30px;}
+       .box-size h3,h6{margin: 10px;}
+       .box-size form{margin: 0px 10px 0px 0px;}
+       .box-size button{background-color: #5bb02e;; color: #fff; width: 100px; border-radius: 30px; border: 1px solid #5bb02e; padding-bottom: 11px;margin: 10px 0px 0px 249px;}
+       .store-bg{background-image: url(./images/store.png); height: 300px; background-size: cover; margin-bottom: 90px;}
+       .store-hd{padding: 40px ; color: #fff;}
+       .store-hd p,h1{margin-top: 30px;}
+       .card-body h5,h6,p{line-height: 2rem;}
+       .card-body h5{padding-top: 0px;}
+       .card-body h6{margin: 0px;}
+       li .page-link{color: #343a40;}
+       
+     </style>
+
+</head>
+<body>
+   <body>
+    <header>
+      <div class="container">
+        <div class="nav-1">
+          <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">로그인</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">회원가입</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">고객센터</a>
+         </li>
+       </ul>
+     </div>
+
+        <nav class="navbar">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" width="50%" alt="" loading="lazy">
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="survey.html">맞춤샐러드</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">메뉴보기</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">매장찾기</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">헤이그린스 소개</a>
+         </li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="store-bg text-center">
+  <div class="store-hd">
+    <img src="images/location.png" class="mx-auto" width="50px;">
+  <h1>매장안내</h1>
+  <p>가까운 지역의 매장에서 헤이그린스를 만나보세요.</p></div>
+</div>
+<div class="container">
+  <div class="row">
+
+  <div class="col-md-7 order-md-1 box-size">
+    <h3 class="mb-3">가맹점을 확인하세요.</h3>
+      <h6 class="mb-3">오프라인 매장에 원하시는 지역을 선택하시거나 검색어를 입력해주시기 바랍니다.</h6>
+
+    <form class="needs-validation" novalidate="">
+      <div class="row">
+      <div class="form-group col-md-6 mb-3">
+      <label for="inputState"></label>
+      <select id="inputState" class="form-control">
+        <option selected>지역을 선택하세요</option>
+        <option>서울</option>
+        <option>인천</option>
+        <option>경기</option>
+        <option>강원</option>
+        <option>대전</option>
+        <option>충북</option>
+        <option>충남</option>
+        <option>대구</option>
+        <option>울산</option>
+        <option>부산</option>
+        <option>경북</option>
+        <option>경남</option>
+        <option>전북</option>
+        <option>전남</option>
+        <option>광주</option>
+        <option>세종</option>
+        <option>제주</option>
+      </select>
+    </div>
+      <div class="form-group col-md-6 mb-3">
+      <label for="inputState"></label>
+      <select id="inputState" class="form-control">
+        <option selected>구/군</option>
+        <option>강남구</option>
+        <option>강동구</option>
+        <option>강북구</option>
+        <option>강서구</option>
+        <option>...</option>
+        <option>...</option>
+        <option>...</option>
+        <option>...</option>
+        <option>...</option>
+      </select>
+    </div>
+    </div>
+
+    <div class="mb-3">
+    <label for="inputAddress"></label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="찾으시는 매장명을 입력해주세요">
+    </div>
+    <button class="btn btn-primary btn-lg btn-block " type="submit">조회하기</button>
+  </form>
+</div>
+
+  <div class="col-md-5 oder-md-2 mb-6">
+    <img src="images/map.png" width="100%">
+    </div>
+</div>
+</div>
+
+<div class="container" style="margin-top: 60px;">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/store1.png" width="100%" class="img-thumbnail">
+            <div class="card-body">
+              <h5>헤이그린스 역삼점</h5>
+              <h6 class="card-subtitle mb-2 text-muted">서울특별시 강남구 역삼동 740 1층</h6>
+              <p class="card-text">매장영업시간: 월~금:08:00 - 23:00, 토~일:10:00 - 19:30</p>
+              <h6 style="color: #5bb02e;">TEL 070-7576-4062</h6>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/store2.png" width="100%" class="img-thumbnail">
+            <div class="card-body">
+              <h5>헤이그린스 강남점</h5>
+              <h6 class="card-subtitle mb-2 text-muted">서울특별시 강남구 역삼동 740 1층</h6>
+              <p class="card-text">매장영업시간: 월~금:08:00 - 23:00, 토~일:10:00 - 19:30</p>
+              <h6 style="color: #5bb02e;">TEL 070-7576-4062</h6>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/store4.png" style="width: 100%" class="img-thumbnail">
+            <div class="card-body">
+              <h5>헤이그린스 선릉점</h5>
+              <h6 class="card-subtitle mb-2 text-muted">서울특별시 강남구 역삼동 740 1층</h6>
+              <p class="card-text">매장영업시간: 월~금:08:00 - 23:00, 토~일:10:00 - 19:30</p>
+              <h6 style="color: #5bb02e;">TEL 070-7576-4062</h6>
+              <div class="d-flex justify-content-between align-items-center">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/store1.png" width="100%">
+            <div class="card-body">
+              <h5>헤이그린스 연세대점</h5>
+              <h6 class="card-subtitle mb-2 text-muted">서울특별시 강남구 역삼동 740 1층</h6>
+              <p class="card-text">매장영업시간: 월~금:08:00 - 23:00, 토~일:10:00 - 19:30</p>
+              <h6 style="color: #5bb02e;">TEL 070-7576-4062</h6>
+              <div class="d-flex justify-content-between align-items-center">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/store1.png" width="100%">
+            <div class="card-body">
+              <h5>헤이그린스 삼성점</h5>
+              <h6 class="card-subtitle mb-2 text-muted">서울특별시 강남구 역삼동 740 1층</h6>
+              <p class="card-text">매장영업시간: 월~금:08:00 - 23:00, 토~일:10:00 - 19:30</p>
+              <h6 style="color: #5bb02e;">TEL 070-7576-4062</h6>
+              <div class="d-flex justify-content-between align-items-center">
+              
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+             <img src="images/store1.png" width="100%">
+            <div class="card-body">
+              <h5>헤이그린스 관악점</h5>
+              <h6 class="card-subtitle mb-2 text-muted">서울특별시 강남구 역삼동 740 1층</h6>
+              <p class="card-text">매장영업시간: 월~금:08:00 - 23:00, 토~일:10:00 - 19:30</p>
+            <h6 style="color: #5bb02e;">TEL 070-7576-4062</h6>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</div>
+
+
+        <nav aria-label="Page navigation example justify-content-center" style="margin-bottom: 120px;" >
+  <ul class="pagination justify-content-center" >
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<footer>
+    <div class="container">
+      <div class="row footer1">
+        <div class="col-10">
+          <p>이용약관    개인정보처리방침    고객센터</p></div>
+          <div class="col">
+            <a href="" target="_blank"><img src="images/instagram.png" width="30%" style="margin-right: 15px;"></a>
+            <a href="" target="_blank"><img src="images/facebook.png" width="30%"></a>
+          </div>
+        </div>
+  
+
+<hr>
+
+      <div class="row" style="margin-top: 40px;">
+        <div class="col">
+          <img src="images/footerlogo.png" width="80%">
+        </div>
+        <div class="col-8">
+          <p>(주)잰앤벤처스 ( ZEN & VENTURES Co., Ltd. )</p>
+          <p>사업자번호 : 105-87-97247[사업자정보 확인] ㅣ대표 : 이현상/이상훈</p>
+          <p>개인정보책임관리자 : 유상현</p>
+          <p>주소 : 서울 강남구 테헤란로20길 9, 7층 ( 역삼동, 동궁빌딩 )</p>
+          <p>통신판매업 신고번호 : 제2014-서울마포-0267 </p>
+        </div>
+        <div class="col">
+          <p>고객센터</p>
+          <p>Tel. 02-6927-7933</p>
+          <p>magi@zenandventures.com</p>
+        </div>
+      </div>
+ </div>
+</footer>
+
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../heygreens/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../heygreens/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+
+</html>
